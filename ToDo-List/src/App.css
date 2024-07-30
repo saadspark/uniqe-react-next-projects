@@ -1,0 +1,54 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.ADD-TO-TODO{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: aqua;
+  height: 100px;
+}
+
+.search{
+  height: 30px;
+  width: 210px;
+}
+
+.button {
+  padding: 12px 16px;
+  background-color: rgba(10, 10, 10, 0.7);
+  border: 2px solid white;
+  color: aliceblue;
+  margin-left: 30px;
+  transition: background-color 1s, border 1s, color 1s;
+}
+
+.button:hover {
+  background-color: rgb(255, 254, 254);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.del-button{
+  padding: 9px 16px;
+  background-color: rgba(255, 70, 70, 0.7);
+  border: 2px solid white;
+  color: aliceblue;
+  margin-left: 30px;
+  transition: background-color 1s, border 1s, color 1s;
+}
+
+.del-button:hover {
+  background-color: rgb(255, 254, 254);
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.listItem{
+  padding: 16px 16px;
+}
+
+.Delete{
+  text-decoration: line-through;
+}
